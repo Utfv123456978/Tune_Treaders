@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesion</title>
+
+    <link rel="stylesheet" type="text/css" href="../estilos/Formulario3.css">
+    <link rel="stylesheet" href="Boceto.css">
+</head>
+<body>
+   
+    <div class="IniciarSesion">
+        <form method="post" action="../conexion/valida.php">
+            <h1 style="text-align: initial;">INICIAR SESION</h1><br>
+    
+            <input name='nombre' type='text' placeholder="Usuario" class="otro" required/><br>
+            <input name='contraseña' type='password'placeholder='Contraseña' class="otro" required /> <br><br>
+            
+            <button>Enviar</button><br><br><br>
+            <p style="font-size: 12px;">Al identificarte aceptas nuestras Condiciones de uso y venta. <br>
+            Consulta nuestro Aviso de privacidad y nuestras Aviso de <br>
+            Cookies y Aviso sobre publicidad basada en los intereses del usuario.</p>
+            
+            </form>
+    
+            <div class="nuevo">
+                <p style="font-size: 12px; text-align: center;">¿Eres nuevo en Tune Treaders?</p>
+                <button class= "crea" type="reset" onclick="location.href='formulario.html'">
+                    Crea tu cuenta Tune Treaders
+                </button>
+            </div>
+    </div>
+    
+        <script src="inicio.js"> 
+        </script>
+</body>
+</html>

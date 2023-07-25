@@ -1,0 +1,91 @@
+body{
+	background-color: rgb(45, 45, 45);
+}
+.datos{
+	width: 10vw;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.panelCarrito{
+	border-radius: 8px;
+	width: 40vw;
+	padding-left: 2vw;
+	padding-top: 2vw;
+	position: relative;
+	left: 28vw;
+	top: 30vh;
+	background-color: rgb(241, 182, 18);
+	border-top: solid 1px rgb(216, 187, 128);
+}
+.cabecera{
+	z-index: -1;
+	position: relative;
+	width: 42vw;
+	left: 28vw;
+	top: 30vh;
+	height: 5vh;
+	background-color: rgb(241, 182, 18);
+	
+	border-radius:8px 8px 0px 0px ;
+}
+.cabecera p{
+	position: relative;
+	left: 17vw;
+
+	font-size: 2.2vw;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.panelCarrito img{
+	width: 8vw;
+	object-fit: cover;
+}
+.panelCarrito p{
+	position: relative;
+	left: 10vw;
+	bottom: 5vw;
+}
+.checkout-btn{
+	bottom: 65vh;
+	width: 130px;
+	position: absolute;
+	left: 72vw;
+}
+.contador{
+	position: absolute;
+	left: 24vw;
+	bottom: 10vw;
+}
+.contador img{
+	width: 1.2vw;
+}
+.contador b{
+	margin-left: 0.8vw;
+	margin-right: 0.8vw;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.6vw;
+}
+
+.logo{
+    width: 120px;
+}
+
+@media (max-width:500px){
+    .panelCarrito{
+        left: 10vw;
+        top: 30vh;
+        width: 50vw;
+    }
+    .cabecera{
+        width: 52vw;
+        left: 10vw;
+
+    }
+    .checkout-btn{
+        left: 65vw;
+    }
+}
+@media (max-width:400px){
+   
+    .checkout-btn{
+        width: 35vw;
+    }
+}

@@ -1,0 +1,269 @@
+.ima{
+    position: relative;
+    top: 110px;
+    left: 0px;
+    height: 420px;
+    background-color: rgb(124, 124, 124);
+}
+.valores{
+    position: relative;
+    top: 110px;
+    left: 0px;
+    height: 420px;
+    background-color: rgb(161, 161, 161);  
+}
+.sobrenosotros{
+    position: relative;
+    top: 110px;
+    left: 0px;
+    bottom: 25px;
+    height: 200px;
+    background-color: rgb(124, 124, 124);
+}
+.bolsa{
+    position: relative; 
+     left: 210px;
+      bottom: 25px;
+       top: 22px;
+       width:280px;
+    height:280px;
+}
+.text1{
+    font-size: 16px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: white; 
+    position: relative; 
+    bottom: 260px; 
+    left: 700px; 
+    width: 30vw;
+}
+.text2{
+    font-size: 16px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: white;
+     position: relative; 
+     top: 110px; 
+     left: 200px; 
+     width: 30vw;
+}
+.imgValores{
+    position: relative; 
+    left: 800px; 
+    bottom: 155px;
+    width:20vw;
+    height:250px; 
+}
+.iconosRedes a img{
+    width: 100px;
+ }
+ .iconosRedes{
+    position: relative;
+    left: 8vw;
+    width: 1200px;
+}
+.red1{
+    position:relative; 
+    top: 0px; 
+    bottom: 127px; 
+    left: 13vw;
+    width:0px;
+}
+.red2{
+    position:relative;
+     top: 0px; 
+     bottom: 127px; 
+     left: 30vw;
+     width:0px;
+}
+.red3{
+    position:relative; 
+    top: 0px; 
+    bottom: 127px; 
+    left: 50vw; 
+    width:0px;
+}
+@media (max-width:1000px) {
+    .bolsa{
+        left: 120px;
+    }
+    .text1{
+        bottom: 260px; 
+        left: 400px; 
+        width: 50vw;
+    }
+    .text2{
+        top: 80px; 
+        left: 100px; 
+        width: 30vw;
+    }
+    .imgValores{
+
+        left: 400px; 
+      
+    }
+    .iconosRedes{
+        position: relative;
+        right: 76px;
+    }
+}
+@media (max-width:500px) {
+    .bolsa{
+        left: 50px;
+        width: 140px;
+        height: 140px;
+    }
+    .text1{
+        font-size: 13px;
+        bottom: 150px; 
+        left: 200px; 
+        width: 50vw;
+    }
+    .text2{
+        top: 40px; 
+        left: 30px; 
+        width: 50vw;
+    }
+    .imgValores{
+        bottom: 200px;
+        left: 300px; 
+        width: 100px;
+    }
+    .iconosRedes{
+        position: relative;
+        right: 80px;
+        top:30px;
+    }
+    .iconosRedes a img{
+       width: 50px;
+    }
+    .red1{
+        position:relative; 
+        top: 0px; 
+        bottom: 127px; 
+        left: 13vw;
+        width:100px;
+    }
+    .red2{
+        position:relative;
+         top: 0px; 
+         bottom: 127px; 
+         left: 20vw;
+         width:100px;
+    }
+    .red3{
+        position:relative; 
+        top: 0px; 
+        bottom: 127px; 
+        left: 30svw; 
+        width:100px;
+    }
+
+}
+@media (max-width:500px) {
+    .bolsa{
+        left: 30px;
+        width: 140px;
+        height: 140px;
+    }
+    .text1{
+        font-size: 13px;
+        bottom: 220px; 
+        left: 170px; 
+        width: 50vw;
+    }
+    .text2{
+        top: 30px; 
+        left: 30px; 
+        width: 65vw;
+    }
+    .imgValores{
+        bottom: 200px;
+        left: 250px; 
+        width: 100px;
+    }
+    .iconosRedes{
+        position: relative;
+        right: 80px;
+        top:20px;
+        width: 380px;
+    }
+    .iconosRedes a img{
+       width: 50px;
+    }
+    .red1{
+        position:relative; 
+        top: 0px; 
+        bottom: 127px; 
+        left: 13vw;
+        width:100px;
+    }
+    .red2{
+        position:relative;
+         top: 0px; 
+         bottom: 127px; 
+         left: 15vw;
+         width:100px;
+    }
+    .red3{
+        position:relative; 
+        top: 0px; 
+        bottom: 127px; 
+        left: 20vw; 
+        width:100px;
+    }
+
+}
+@media (max-width:500px) {
+    .bolsa{
+        left: 30px;
+        width: 140px;
+        height: 140px;
+    }
+    .text1{
+        font-size: 13px;
+        bottom: 220px; 
+        left: 170px; 
+        width: 50vw;
+    }
+    .text2{
+        top: 30px; 
+        left: 30px; 
+        width: 65vw;
+    }
+    .imgValores{
+        bottom: 200px;
+        left: 250px; 
+        width: 100px;
+    }
+    .iconosRedes{
+        position: relative;
+        right: 80px;
+        top:20px;
+        width: 380px;
+    }
+    .iconosRedes a img{
+       width: 50px;
+    }
+    .red1{
+        position:relative; 
+        top: 0px; 
+        bottom: 127px; 
+        left: 13vw;
+        width:100px;
+    }
+    .red2{
+        position:relative;
+         top: 0px; 
+         bottom: 127px; 
+         left: 15vw;
+         width:100px;
+    }
+    .red3{
+        position:relative; 
+        top: 0px; 
+        bottom: 127px; 
+        left: 20vw; 
+        width:100px;
+    }
+
+}

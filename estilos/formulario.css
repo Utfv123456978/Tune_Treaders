@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;500&display=swap');
+body{
+    padding: 0px;
+    margin: 0px;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+@media (max-width: 768px) {
+	.enlaces a{
+		visibility:hidden;
+	}	
+}
+
+
+
+.formulario{
+    position: absolute;
+    left: 14vw;
+    top: 150px;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 35px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    border: solid 1px ;
+	border-color: silver;
+}
+
+.otro{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    display: flex;
+    position: relative;
+    left: 70px;
+    margin-top: 10px;
+    padding: 10px 10px  0px 0px ;
+}
+.otro:hover{
+    border-color: orange;
+}
+
+
+h1{
+	font-family: 'Anton', sans-serif;
+    position: relative;
+    left: 25px;
+}
+button{
+    position: relative;
+    left: 80px;
+    width: 165px;
+    height: 30px; 
+    background: rgba(255, 187, 0, 0.897);
+    padding: 5px;
+    font-size: 15px;
+    border: solid 1px black;
+    border-radius: 2px;
+}
+.cuadrito{
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+
+.nuevo{
+    position: absolute;
+    left: 510px;
+	right: 500px;
+    top: 20vh;
+}
+.crea{
+    position: relative;
+	left: 45px;
+    font-size: 13px;
+        width: 275px;
+}
+
+
+/* Aquí es de sobre nosotros */
+
+.ima{
+    position: relative;
+    top: 110px;
+    left: 0px;
+    height: 420px;
+    background-color: rgb(124, 124, 124);
+}
+.valores{
+    position: relative;
+    top: 110px;
+    left: 0px;
+    height: 420px;
+    background-color: rgb(161, 161, 161);  
+}
+.sobrenosotros{
+    position: relative;
+    top: 110px;
+    left: 0px;
+    bottom: 25px;
+    height: 200px;
+    background-color: rgb(124, 124, 124);
+}

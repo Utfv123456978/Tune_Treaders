@@ -1,0 +1,72 @@
+.cuadro1{
+    top: 25vh;
+    left: 23vw;
+    position: relative;
+    
+    width: 20vw;
+    height: 35vh;
+}
+.cuadro2{
+    position: relative;
+    left: 15vw;
+    top: 2vh;
+    width: 30vw;
+    z-index: -2;
+}
+.cuadro1 img{
+    width: 10vw;
+    position: relative;
+    left: 7vw;
+    top: 1vh;
+}
+.cuadro1 p{
+    position: relative;
+    left: 9.4vw;
+    top: 1vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btnCerrarSesion{
+    color: red;
+    position: relative;
+    left: 6vw;
+    top: 5vh;
+    z-index: 2;
+    
+}
+.btnCerrarSesion:hover{
+    color: rgb(240, 102, 102);
+}
+.PerfilNombre{
+    
+    font-size: 4vw;
+    position: relative;
+    left: 30vw;
+    width: 20px;
+    bottom: 10vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.PerfilApellido{
+    
+    font-size: 4vw;
+    position: relative;
+    left: 43vw;
+    width: 20px;
+    bottom: 19.5vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.PerfilDatos{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1vw;
+    position: relative;
+    left: 30vw;
+    bottom: 15vh;
+    width: 30vw;
+}
+.PerfilDatos p{
+  
+    margin-bottom: 5vh;
+}

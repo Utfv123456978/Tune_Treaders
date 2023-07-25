@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nosotros</title>
+    <link rel="stylesheet" href="sobreNosotros.css">
+    <link rel="stylesheet" href="7.css">
+</head>
+<body style="background-color: #CACCCD">
+    <div class="menuInvisible" id="menu">
+        <button class="iconoCerrar"><img  src="close.png" alt=""></button>
+        <div class="enlacesCel">
+                <a href="Inicio.php">INICIO</a>
+                <a href="#reseñas" class="btnReseñas">RESEÑA</a>
+                <a href="Catalogo.html">CATÁLOGO</a>
+                <a href="sobrenosotros.html">SOBRE NOSOTROS</a>
+                <a class="nombreusuario" href="perfil.php"> <?php echo $_SESSION['usuario'] ?></a>
+            </div>
+        </div>
+        <!-- Cambiar -->
+        <div class="Logo">
+            <img src="logo.png" width="50px" class="imgLogo">
+                <p class="Nombre_Tienda">TUNE TREADERS</p>
+         
+            <a class="carrito" href="carrito.php" ><img src="https://cdn-icons-png.flaticon.com/512/107/107831.png"   width="40px"></a>
+            
+            <div class="enlaces" >
+                <a href="Inicio.php">INICIO</a>
+                <a href="#reseñas" class="btnReseñas">RESEÑA</a>
+                <a href="Catalogo.html">CATÁLOGO</a>
+                <a href="sobrenosotros.html">SOBRE NOSOTROS</a>
+                <a class="nombreusuario" href="perfil.php"> <?php echo $_SESSION['usuario'] ?></a>
+            </div>
+            <button class="iconoMenu"><img src="menu.png" alt="" ></button>
+            
+        </div>
+    <div class="ima" style="position: relative;">
+    
+      <h1 style="text-align: center; font-family: 'Anton', sans-serif; width: 50vw; left: 25vw;">SOBRE NOSOTROS</h1><br>
+      <img class="bolsa" src="tien.png" >
+      <p class="text1" > 
+       Somos una reconocida empresa especializada en la venta de discos, con una historia fascinante que se remonta a varias décadas atrás. Fundada en 
+        el año 1975 por dos apasionados melómanos, Mark Thompson y Sarah Collins, la compañía nació con el objetivo de proporcionar a los amantes 
+        de la música una amplia selección de discos en diferentes géneros y formatos. <br><br>
+        La historia de Tune Treaders comenzó en una pequeña tienda en el centro de la ciudad. Mark y Sarah, ambos ávidos coleccionistas de discos, 
+        decidieron compartir su pasión con otros aficionados a la música. La tienda ofrecía una variedad de géneros musicales, desde rock clásico
+         y jazz hasta música clásica y folk.
+        </p>
+
+    </div>
+<div class="valores">
+    <p class="text2" > 
+        Misión: proporcionar a nuestros clientes una experiencia excepcional al ofrecer una amplia selección de discos de música de alta calidad. <br><br>
+        Visión: convertirnos en la tienda de discos de música más reconocida y respetada a nivel mundial. Buscamos ser líderes en la industria musical, proporcionando una plataforma para descubrir y disfrutar de la música en formatos físicos. <br><br>
+        Valores: Pasión por la música, calidad y autenticidad, servicio al cliente excepcional.
+         </p>
+         <img class="imgValores" src="cliente.png">
+</div>
+
+    <div class="sobrenosotros">
+        <h2 style="text-align: center; font-family: 'Anton', sans-serif; ">Redes sociales</h1><br>
+            <div class="iconosRedes">
+            <a class="red1" href="https://es-la.facebook.com/"><img src="facebook.png" /></a>
+            <a class="red2" href="https://www.instagram.com/"><img src="instagram.png" /></a>
+            <a class="red3" href="https://twitter.com/?lang=es"><img src="twitter.png" /></a>
+            </div>
+            
+  </div>
+  <script src="menuSistema.js"> 
+</script>
+</body>
+</html>

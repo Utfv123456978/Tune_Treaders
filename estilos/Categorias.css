@@ -1,0 +1,81 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.Titulo{
+    left: 120px;
+    font-size: 3rem;
+    position: absolute;
+    top: 230px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ContacLinea{
+    background-color: black;
+}
+
+.ContacLinea p{
+    color: aliceblue;
+    position: relative;
+    left: 670px;
+    width: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.TablaProductos{
+    position: absolute;
+    top: 50vh;
+    left: 20vw;
+   
+}
+
+.imgPan{
+    width: 250px;
+    
+}
+
+.NombrePan{
+    position: relative;
+    display:flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.PrecioPan{
+    position: relative;
+    display:flex;
+    bottom: 17px;
+    left: 180px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.BtnComprar{
+    padding: 5px;
+    margin-bottom: 100px;
+    background-color: white;
+    border: solid black 2px;
+
+    position: relative;
+    top: 30px;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.BtnComprar:hover{
+    border: solid black 1px;
+    background-color: rgb(223, 132, 21);
+    color: #f5d184;
+}
+.filtro{
+    position: absolute;
+    top: 270px;
+    left: 80vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.AdornoTitulo{
+    position: absolute;
+    width: 200px;
+    top: 0px;
+    left: 142px;   
+}
+

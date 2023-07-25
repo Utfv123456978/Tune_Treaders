@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;500&display=swap');
+body{
+    padding: 0%;
+    margin: 0%;
+}
+html{
+	scroll-behavior: smooth;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.Logo{
+	
+	height: 17vh;
+	width: auto;
+	
+	background-color: rgba(255, 187, 0, 0.897);
+	position: absolute;
+	
+	top: 0px;
+	left: 0px;
+	right: 0px;
+}
+.imgLogo{
+	border-radius:10px;
+	border-bottom-left-radius: 1em 5em;
+	border-bottom-right-radius: 1em 5em;
+	left: 17px;
+	position: relative;
+	top: 27px;
+	padding-bottom: 70px;
+}
+.enlaces{
+	position: absolute;
+	width: 70vw;
+	
+	top: 45px;
+	left:  250px;
+}
+
+a{
+	
+	padding: 35px;
+	color: black;
+	text-decoration: none;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a:hover{
+	
+	color: rgb(168, 95, 5);
+}
+.novedades{
+	background-image: url(../TiendaDiscos/fondoNovedades.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 89vh;
+	position: relative;
+	top: 17vh;
+	
+	
+}
+.nombreusuario{
+    font-size: 0.9vw;
+    position: relative;
+    bottom: 12.1vh;
+    left: 32vw;
+    width: 300px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nombreusuarioInvisible{
+    display: none;
+}
+.IniciaSesionInvisible{
+    display: none;
+}
+.filtro{
+	width: 100%;
+	height: 89vh;
+	background-color: black;
+	position: absolute	;
+	opacity: 70%;
+}
+.ContacLinea{
+    background-color: black;
+}
+
+
+.ContacLinea p{
+    color: aliceblue;
+    position: relative;
+    left: 670px;
+    width: 500px;
+}
+
+#Categorias{
+	position: absolute;
+	top: 900px;
+	font-size: 60px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.AdornoTitulo{
+    position: absolute;
+    width: 200px;
+    top: 970px;
+    left: 70px;   
+}
+
+
+
+.Nombre_Tienda{
+	position: relative;
+	width: 200px;
+	left: 90px;
+	bottom: 90px;
+	font-family: 'Anton', sans-serif;
+	font-size: 28px;
+}
+
+.titulo_novedades{
+	position: absolute;
+	top: 20px;
+	left: 25px;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 40px;
+	color: white;
+}
+@media (max-width: 768px) {
+	.enlaces a{
+		visibility:hidden;
+	}
+
+}
+
+.Convenios p{
+	position: relative;
+	top: 50px;
+	left: 30vw;
+	width: 250px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.3rem;
+}
+.Convenios img{
+	top: -30px;
+	margin-left: 50px;
+	position: relative;
+	left: 22vw;
+	bottom: 9vh;
+}
+.espacio-audifonos{
+	top: 17vh;
+	position: relative;
+	height: 60vh;
+}
+.espacio-audifonos img{
+	position: relative;
+	top: 17vh;
+	left: 15vw;
+}
+.boton-pedir-audifonos{
+	position: relative;
+	top: 12vh;
+	right: 3.5vw;
+	background-color:rgb(227,203,170);
+	padding: 12px 28px;
+	border: solid white 1px;
+	color: white;
+	font-size: 18px;
+	font-family: 'Barlow', sans-serif;
+	border-radius: 2px;
+}
+
+.boton-pedir-audifonos:hover{
+	background-color: white;
+	color: rgb(227,203,170);
+}
+
+.reseñas{
+	position: relative;
+	display: flex;
+	align-items: center;
+	gap: 40px;
+	
+	padding: 0px 40px;
+	
+	height: 60vh;
+	background-color: rgb(255, 255, 255);
+	top: 17vh;
+}	
+
+.btnIzquierda, .btnDerecho{
+	width: 5%;
+}
+
+.btnIzquierda img, .btnDerecho img{
+	width: 100%;
+}
+
+.slider-screen{
+	width: 90%;
+}
+
+.slider-screen img{
+	width: 100%;
+}
+.espacio-x{
+	
+	background-image: url(./imgEspacioX.jpg);
+	height: 57vh;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: relative;
+	top: 0vh;
+	
+}
+.espacio-x::after{
+	content: "";
+	position: absolute;
+	opacity: 0.6;
+	background-color: rgb(208,180,143);
+		width: 100%;
+		height: 57vh;
+}
+
+.MandarMail{
+	
+	height: 25vh;
+	background-color: rgb(45, 45, 45);
+}
+.MandarMail p{
+	width: 250px;
+	color: white;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	position: relative;
+	top: 13vh;
+	left: 37vw;
+	font-size: 20px;
+}
+.textoMail{
+	position: relative;
+	left: 48vw;
+	top: 8vh;
+	padding: 10px;
+	width: 12vw;
+	background-color: rgb(45, 45, 45);
+	border: solid rgb(208,180,143) ;
+	color: aliceblue;
+	
+}
+.suscribirse{
+	position: relative; left: 50vw; top: 7.9vh; padding: 10px; background-color: rgb(208,180,143); border: none;
+	width: 100px;
+	
+	
+}
+.suscribirse:hover{
+	background-color: white;
+	
+	
+}
+.textoMail:focus{
+	outline: none;
+
+}
+
+.inicial{
+	
+	position: relative;
+	left: 25vw;
+	bottom: 0vh;
+	animation-duration: 4.5s; animation-name: slidein;
+	
+	
+}
+.secundaria{
+	
+	position: relative;
+	left: 25vw;
+	bottom: 0vh;
+	animation-duration: 4.5s; animation-name: slideother;
+}
+.inicializ{
+	
+	position: relative;
+	left: 25vw;
+	bottom: 0vh;
+	animation-duration: 4.5s; animation-name: slideiniz;
+	
+	
+}
+.secundariaiz{
+	
+	position: relative;
+	left: 25vw;
+	bottom: 0vh;
+	animation-duration: 4.5s; animation-name: slideotheriz;
+}
+.aniRunning{
+	
+	position: relative;
+	left: 25vw;
+	bottom: 0vh;
+	animation-play-state: running;
+	animation-duration: 2s;
+	animation-name: again;
+}
+.aniPaused{
+	
+	position: relative;
+	left: 25vw;
+	bottom: 0vh;
+	animation-play-state: paused;
+}
+@keyframes slidein {
+	0%{
+		opacity: 0;
+	}
+	30%{
+		opacity: 1;
+	}
+	
+	100%{
+		
+		opacity: 0;
+	}
+}
+@keyframes slideother {
+	0%{
+		opacity: 0;
+	}
+	30%{
+		opacity: 1;
+	}
+	
+	100%{
+		
+		opacity: 0;
+	}
+}
+
+@keyframes slideiniz {
+	0%{
+		opacity: 0;
+	}
+	30%{
+		opacity: 1;
+	}
+	
+	100%{
+		
+		opacity: 0;
+	}
+}
+@keyframes slideotheriz {
+	0%{
+		opacity: 0;
+	}
+	30%{
+		opacity: 1;
+	}
+	
+	100%{
+		
+		opacity: 0;
+	}
+}
+@keyframes again {
+	0%{
+		opacity: 1;
+	}
+	100%{
+		
+		opacity: 0;
+	}
+}
+
+.Puntitos{
+	display: flex;
+	position: absolute;
+	width: 30px;
+	top:55vh;
+	right: 46vw;
+}
+
+.Puntitos img{
+	width: 30px;
+}
+.carrito{
+	position: relative;
+	bottom: 122px;
+	left: 90vw;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+.SeccionCarrito{
+	z-index: 50;
+	bottom: 0vh;
+	left: 72.1vw;
+	position: fixed;
+	height: 100vh;
+	width: 27vw;
+	background-color: rgb(45, 45, 45);
+	display: none;
+}
+.SeccionCarrito p{
+	position: relative;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 30px;
+	height: 7vh;
+	bottom:7vh ;
+	text-align: center;
+	
+}
+.headerCarrito{
+
+	position: relative;
+	bottom: 3vh;
+	width: 27vw;
+	height: 10vh;
+	background-color: rgb(241, 182, 18);
+}
+.SeccionCarrito img{
+	z-index: 5;
+	position: absolute;
+	width: 2vw;
+	top: 3vh;
+	left: 1vw;
+}
+
+.SeccionCarritoVisible{
+	z-index: 50;
+	bottom: 0vh;
+	left: 72.1vw;
+	position: fixed;
+	height: 100vh;
+	width: 27vw;
+	background-color: rgb(45, 45, 45);
+	
+}
+.SeccionCarritoVisible p{
+	position: relative;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 30px;
+	height: 7vh;
+	bottom:9vh ;
+	text-align: center;
+	
+}
+
+
+.flechaOcultar{
+	z-index: 5;
+	position: absolute;
+	width: 2vw;
+	top: 3vh;
+	left: 1vw;
+}
+
+.productosCarrito{
+    position: relative;
+    
+}
+.productosCarrito p{
+    position: relative;
+    top: 20px;
+    color: white;
+}
+
+.productosCarrito img{
+    position: relative;
+    left: 10vw;
+}

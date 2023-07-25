@@ -1,0 +1,871 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;500&display=swap');
+body{
+    padding: 0%;
+    margin: 0%;
+}
+html{
+	scroll-behavior: smooth;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.Logo{
+	
+	height: 17vh;
+	width: auto;
+	
+	background-color: rgba(255, 187, 0, 0.897);
+	position: absolute;
+	
+	top: 0px;
+	left: 0px;
+	right: 0px;
+}
+.imgLogo{
+	border-radius:10px;
+	border-bottom-left-radius: 1em 5em;
+	border-bottom-right-radius: 1em 5em;
+	left: 17px;
+	position: relative;
+	top: 27px;
+	padding-bottom: 70px;
+}
+.enlaces{
+	position: absolute;
+	width: 70vw;
+	
+	top: 45px;
+	left:  250px;
+}
+
+a{
+	
+	padding: 35px;
+	color: black;
+	text-decoration: none;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a:hover{
+	
+	color: rgb(168, 95, 5);
+}
+.novedades{
+	background-image: url(../imagenes/fondoNovedades.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 89vh;
+	position: relative;
+	top: 17vh;
+	
+	
+}
+.nombreusuario{
+    
+    position: relative;
+    
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.filtro{
+	width: 100%;
+	height: 89vh;
+	background-color: black;
+	position: absolute	;
+	opacity: 70%;
+}
+.ContacLinea{
+    background-color: black;
+}
+
+
+.ContacLinea p{
+    color: aliceblue;
+    position: relative;
+    left: 670px;
+    width: 500px;
+}
+
+#Categorias{
+	position: absolute;
+	top: 900px;
+	font-size: 60px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.AdornoTitulo{
+    position: absolute;
+    width: 200px;
+    top: 970px;
+    left: 70px;   
+}
+
+
+
+.Nombre_Tienda{
+	position: relative;
+	width: 200px;
+	left: 90px;
+	bottom: 90px;
+	font-family: 'Anton', sans-serif;
+	font-size: 28px;
+}
+.iconoMenu{
+    position: absolute;
+    bottom: 9vh;
+    width: 50px;
+    left: 85vw;
+    background: none;
+    border: none;
+    display: none;
+}
+.iconoMenu img{
+    width: 20px;
+    
+}
+.menu{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(77, 77, 77);
+    z-index: 3;
+    
+}
+.menuInvisible{
+    display: none;
+}
+.iconoCerrar{
+    width: 60px;
+    position: relative;
+    left: 90vw;
+    top: 30px;
+    background-color: transparent;
+    border: none;
+}
+.iconoCerrar img{
+    width: 20px;
+
+}
+.enlacesCel a{
+    color: white;
+    display: block;
+    position: relative;
+    top: 100px;
+}
+.titulo_novedades{
+	position: absolute;
+	top: 20px;
+	left: 25px;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 40px;
+	color: white;
+}
+.taylorIMG{
+    position: relative; 
+    width: 200px; 
+    left: 60px;
+    top: 280px;
+}
+.taylor1{
+    font-family: 'Barlow', sans-serif; 
+    font-size: 40px; 
+    color: white; 
+    position: relative; 
+    top: 290px; 
+    left: 73px;
+     width: 30vw;
+}
+.taylor2{
+    font-family: 'Barlow', sans-serif; 
+    color: white;
+     position: relative; 
+     top: 310px;
+      left: 73px;
+       width: 400px;
+}
+.harryIMG{
+    position: relative; 
+    width: 200px; 
+    left: 30vw;
+    bottom: 280px;
+}
+.harry1{
+    font-family: 'Barlow', sans-serif; 
+    font-size: 40px;
+     color: white; 
+     position: relative; 
+     bottom: 270px; 
+     left: 30vw;
+     width: 250px;
+}
+.harry2{
+    font-family: 'Barlow', sans-serif; 
+    color: white; 
+    position: relative; 
+    bottom: 260px; 
+    left: 30vw; 
+    width: 400px;
+}
+
+.orbitaIMG{
+    position: relative; 
+    width: 200px; 
+    left: 51vw;
+    bottom: 320px;
+}
+.orbita1{
+    font-family: 'Barlow', sans-serif; 
+    font-size: 40px;
+     color: white; 
+     position: relative;
+      bottom: 320px; 
+      left: 51vw; 
+      width: 250px;
+}
+
+.orbita2{
+    font-family: 'Barlow', sans-serif;
+     color: white;
+      position: relative; 
+      bottom: 310px; 
+      left: 51vw;
+       width: 400px;
+}
+.mañanaIMG{
+    position: relative; 
+    width: 200px; 
+    left: 68vw;
+    bottom: 920px;
+}
+.mañana1{
+    font-family: 'Barlow', sans-serif; 
+    font-size: 40px; 
+    color: white;
+     position: relative; 
+     bottom: 910px; 
+     left: 68vw; 
+     width: 250px;
+}
+.mañana2{
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    position: relative;
+    bottom: 900px; 
+    left: 68vw; 
+    width: 300px;
+}
+.Convenios p{
+	position: relative;
+	top: 50px;
+	left: 30vw;
+	width: 250px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.3rem;
+}
+.Convenios img{
+	top: -30px;
+	margin-left: 50px;
+	position: relative;
+	left: 22vw;
+	bottom: 9vh;
+    
+}
+.espacio-audifonos{
+	top: 17vh;
+	position: relative;
+	height: 60vh;
+}
+.audifonos{
+	position: relative;
+	top: 17vh;
+	left: 15vw;
+}
+.audifonosText{
+    position: relative;
+	
+	left: 20vw;
+}
+.boton-pedir-audifonos{
+	position: relative;
+	top: 3vh;
+	right: 3.2vw;
+	background-color:rgb(227,203,170);
+	padding: 12px 28px;
+	border: solid white 1px;
+	color: white;
+	font-size: 18px;
+	font-family: 'Barlow', sans-serif;
+	border-radius: 2px;
+}
+
+.boton-pedir-audifonos:hover{
+	background-color: white;
+	color: rgb(227,203,170);
+}
+
+.reseñas{
+	position: relative;
+	display: flex;
+	align-items: center;
+	gap: 40px;
+	
+	padding: 0px 40px;
+	
+	height: 60vh;
+	background-color: rgb(255, 255, 255);
+	top: 17vh;
+}	
+
+.btnIzquierda, .btnDerecho{
+	width: 5%;
+}
+
+.btnIzquierda img, .btnDerecho img{
+	width: 100%;
+}
+
+.slider-screen{
+	width: 90%;
+}
+
+
+.espacio-x{
+	
+	background-image: url(../imagenes/imgEspacioX.jpg);
+	height: 57vh;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: relative;
+	top: 0vh;
+	
+}
+.espacio-x::after{
+	content: "";
+	position: absolute;
+	opacity: 0.6;
+	background-color: rgb(208,180,143);
+		width: 100%;
+		height: 57vh;
+}
+
+.MandarMail{
+	
+	height: 25vh;
+	background-color: rgb(45, 45, 45);
+}
+.mensajito{
+	width: 250px;
+	color: white;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	position: relative;
+	top: 13vh;
+	left: 33vw;
+	font-size: 20px;
+}
+.tituloMail{
+    width: 40vw;
+    position: relative; 
+    left: 48vw; 
+    color: white; 
+    top:7vh; 
+    font-size: 15px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.textoMail{
+	position: relative;
+	left: 48vw;
+	top: 8vh;
+	padding: 10px;
+	width: 12vw;
+	background-color: rgb(45, 45, 45);
+	border: solid rgb(208,180,143) ;
+	color: aliceblue;
+	
+}
+.suscribirse{
+	position: relative; left: 50vw; top: 7.9vh; padding: 10px; background-color: rgb(208,180,143); border: none;
+	width: 100px;
+	
+	
+}
+.suscribirse:hover{
+	background-color: white;
+	
+	
+}
+.textoMail:focus{
+	outline: none;
+
+}
+
+.inicial{
+    width: 40vw; 
+    z-index:50;
+	position: relative;
+	left: 25vw;
+	bottom: 0vh;
+	animation-duration: 4.5s; animation-name: slidein;
+	
+	
+}
+.secundaria{
+	width: 40vw;
+    z-index:50;
+	position: relative;
+	left: 25vw;
+	bottom: 0vh;
+	animation-duration: 4.5s; animation-name: slideother;
+}
+.inicializ{
+	
+	position: relative;
+	left: 25vw;
+	bottom: 0vh;
+	animation-duration: 4.5s; animation-name: slideiniz;
+	
+	
+}
+.secundariaiz{
+	
+	position: relative;
+	left: 25vw;
+	bottom: 0vh;
+	animation-duration: 4.5s; animation-name: slideotheriz;
+}
+.aniRunning{
+	
+	position: relative;
+	left: 25vw;
+	bottom: 0vh;
+	animation-play-state: running;
+	animation-duration: 2s;
+	animation-name: again;
+}
+.aniPaused{
+	
+	position: relative;
+	left: 25vw;
+	bottom: 0vh;
+	animation-play-state: paused;
+}
+@keyframes slidein {
+	0%{
+		opacity: 0;
+	}
+	30%{
+		opacity: 1;
+	}
+	
+	100%{
+		
+		opacity: 0;
+	}
+}
+@keyframes slideother {
+	0%{
+		opacity: 0;
+	}
+	30%{
+		opacity: 1;
+	}
+	
+	100%{
+		
+		opacity: 0;
+	}
+}
+
+@keyframes slideiniz {
+	0%{
+		opacity: 0;
+	}
+	30%{
+		opacity: 1;
+	}
+	
+	100%{
+		
+		opacity: 0;
+	}
+}
+@keyframes slideotheriz {
+	0%{
+		opacity: 0;
+	}
+	30%{
+		opacity: 1;
+	}
+	
+	100%{
+		
+		opacity: 0;
+	}
+}
+@keyframes again {
+	0%{
+		opacity: 1;
+	}
+	100%{
+		
+		opacity: 0;
+	}
+}
+
+.Puntitos{
+	display: flex;
+	position: absolute;
+	width: 30px;
+	top:55vh;
+	right: 46vw;
+}
+
+.Puntitos img{
+	width: 30px;
+}
+.carrito{
+	position: relative;
+	bottom: 165px;
+	left: 88vw;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+    width: 8px;
+    display: block;
+}
+.SeccionCarrito{
+	z-index: 50;
+	bottom: 0vh;
+	left: 72.1vw;
+	position: fixed;
+	height: 100vh;
+	width: 27vw;
+	background-color: rgb(45, 45, 45);
+	display: none;
+}
+.SeccionCarrito p{
+	position: relative;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 30px;
+	height: 7vh;
+	bottom:7vh ;
+	text-align: center;
+	
+}
+.headerCarrito{
+
+	position: relative;
+	bottom: 3vh;
+	width: 27vw;
+	height: 10vh;
+	background-color: rgb(241, 182, 18);
+}
+.SeccionCarrito img{
+	z-index: 5;
+	position: absolute;
+	width: 2vw;
+	top: 3vh;
+	left: 1vw;
+}
+
+.SeccionCarritoVisible{
+	z-index: 50;
+	bottom: 0vh;
+	left: 72.1vw;
+	position: fixed;
+	height: 100vh;
+	width: 27vw;
+	background-color: rgb(45, 45, 45);
+	
+}
+.SeccionCarritoVisible p{
+	position: relative;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 30px;
+	height: 7vh;
+	bottom:9vh ;
+	text-align: center;
+	
+}
+
+
+.flechaOcultar{
+	z-index: 5;
+	position: absolute;
+	width: 2vw;
+	top: 3vh;
+	left: 1vw;
+}
+
+.productosCarrito{
+    position: relative;
+    
+}
+.productosCarrito p{
+    position: relative;
+    top: 20px;
+    color: white;
+}
+
+.productosCarrito img{
+    position: relative;
+    left: 10vw;
+}
+
+
+@media (max-width: 768px) {
+	.enlaces a{
+		visibility:hidden;
+	}
+
+}
+
+@media (max-width: 1300px){
+    .iconoMenu{
+        display: block;
+      }
+    .Convenios p{
+        left: 10vw;
+    }
+    .Convenios img{
+        left: 5vw;
+    }
+
+    .audifonos{
+        left: 2vw;
+    }
+    .audifonosText{
+        left: 10vw;
+    }
+    .boton-pedir-audifonos{
+        right: 330px;
+    }
+}
+
+@media (max-width: 1200px) {
+     .enlaces a{
+        display: none;
+    }
+    .Convenios img{
+        width: 40vw;
+        top: 1vh;
+    }
+    .audifonosText{
+        left: 10vw;
+    }
+    .audifonos{
+        left: 10vw;
+        top: 2vh;
+    }
+    .boton-pedir-audifonos{
+        right: 200px;
+    }
+    .MandarMail p{
+        
+        left: 25vw;
+    }
+
+}
+
+@media (max-width:1000px){
+    .harryIMG{
+        
+        left: 43vw;
+       
+    }
+    .harry1{
+         left: 43vw;
+        
+    }
+    .harry2{
+        left: 43vw; 
+    }
+
+    .orbitaIMG{ 
+        left: 30vw;
+        top: 30px;
+    }
+    .orbita1{
+          top: 20px; 
+          left: 30vw; 
+    }
+    
+    .orbita2{
+          top: 20px; 
+          left: 30vw;
+    }
+    .mañanaIMG{
+        left: 68vw;
+        bottom: 540px;
+    }
+    .mañana1{
+         bottom: 540px; 
+         left: 68vw; 
+    }
+    .mañana2{
+        width: 30vw;
+        bottom: 540px; 
+        left: 68vw; 
+    }
+    .inicial{
+        width: 60vw;
+        left: 5vw;	
+    }
+    .secundaria{
+        width: 60vw;
+        left: 5vw;
+    }
+}
+
+@media (max-width:500px){
+  .carrito{
+    left: 78vw;
+  }
+  .iconoMenu{
+    bottom: 9vh;
+    left: 75vw;
+  }
+  .novedades{
+    height: 150vh;
+  }
+  .filtro{
+    height: 150vh;
+  }
+  .harryIMG{
+        
+    bottom: 28vh;
+   
+}
+.harry1{
+     width: 40vw;
+    
+}
+.harry2{
+    width: 40vw;
+}
+
+.taylorIMG{
+    left: 30px;
+    top: 480px;
+}
+.taylor1{
+    left: 30px;
+    top: 480px;
+
+}
+.taylor2{
+    width: 350px;
+    left: 30px;
+    top: 480px;
+}
+.mañanaIMG{
+    left: 40vw;
+    top: 100px;
+}
+.mañana1{
+    left: 40vw;
+    top: 100px;
+    width: 240px;
+}
+.mañana2{
+    left: 40vw;
+    top: 100px;
+}
+.orbitaIMG{ 
+    display: none;
+}
+.orbita1{
+    display: none;
+}
+
+.orbita2{
+    display: none;
+}
+.Convenios p{
+	
+	top: 20px;
+	left: 10vw;
+}
+.Convenios img{
+	top: -8px;
+	margin-left: 50px;
+	position: relative;
+	left: 15vw;
+	bottom: 9vh;
+    
+}
+.audifonosText{
+    left: 2vw;
+    width: 100vw;
+}
+.audifonos{
+    left: 10vw;
+    top: 2vh;
+    width: 80vw;
+}
+.boton-pedir-audifonos{
+    left: 50px;
+
+}
+.reseñas{
+	position: relative;
+	display: flex;
+	align-items: center;
+	gap: 0px;
+	padding: 0px 40px;
+	height: 60vh;
+	background-color: rgb(255, 255, 255);
+	top: 17vh;
+}
+.inicial{
+	width: 60vw;
+	left: 7vw;	
+}
+.secundaria{
+	width: 60vw;
+	left: 7vw;
+}
+.mensajito{
+    top: 18vh;
+    left: 30vw;
+}
+.tituloMail{
+
+    left: 80vw; 
+    top:8vh; 
+}
+}
+
+@media (max-width:400px){
+    .iconoMenu{
+        bottom: 8vh;
+    }
+    .novedades{
+        height: 170vh;
+    }
+    .filtro{
+        height: 170vh;
+    }
+    .mañana1{
+        width:200px;
+    }
+    .taylor2{
+        width: 320px;
+    }
+    .audifonosText{
+        left: 2vw;
+        width: 90vw;
+    }
+    .tituloMail{
+        position: relative; 
+        left: 48vw; 
+        color: white; 
+        top:7.5vh; 
+        font-size: 15px; 
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}

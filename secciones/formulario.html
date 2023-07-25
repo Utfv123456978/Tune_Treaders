@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario registro</title>
+
+    <link rel="stylesheet" type="text/css" href="../estilos/Formulario3.css">
+    <link rel="stylesheet" href="../estilos/Boceto.css">
+</head>
+<body>
+   
+
+        <form class="formulario" method="post" action="../secciones/Registrar.php">
+        <h1 >REGISTRO</h1>
+        
+        <input name='nombre' type='text'placeholder='Nombre' class="otro" required/>
+        
+        <input name='apellidos' type='text'placeholder='Apellidos' class="otro" required/>
+        
+        <input name='contraseña' type='password'placeholder='Contraseña' class="otro" required/>
+        
+        <input name='calle' type='text' placeholder="Calle"  class="otro" required/>
+        
+        <input name='municipio' type='text' placeholder="Municipio" class="otro" required/>
+        
+        <input name='cp' type='text'placeholder= 'Codigo postal' class="otro" required/>
+        
+        <input name='email' type='email' placeholder="Email" class="otro" required/>
+        <input name='telefono' type='text'placeholder='Numero telefonico' class="otro" required/> <br>
+        
+        <input type='checkbox' name='hombre' value='hombre' class="cuadrito" required/> Deseo recibir informacion sobre novedades y ofertas <br><br>
+        <input type='checkbox' name='mujer' value='mujer' class="cuadrito" required/> Declaro haber leido y aceptar las condiciones y <br>  la normativa sobre protección de datos </p><br> <br>
+        
+        <button>Enviar</button>
+        
+        </form>
+        <script src="inicio.js"> 
+        </script>
+</body>
+</html>

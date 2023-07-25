@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(45, 45, 45);
+}
+
+.Seccion_Albums{
+    width: 50vw;
+    position: relative;
+    top: 20vh;
+    left: 20vw;
+    display: grid;
+    grid-template-columns: 20vw 20vw 17vw 17vw;
+    grid-template-rows: 55vh 55vh 55vh 60vh 60vh;
+}
+
+.Seccion_Albums p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 300px;
+    max-width: 200px;
+    position: relative;
+    top: 2vh;
+    color: white;
+    min-width: 200px;
+    font-size: 20px;
+}
+.Seccion_Albums div{
+    position: relative;
+    
+    height: 500px;
+}
+.btnComprar{
+    
+    cursor: pointer;
+    padding: 8px;
+    width: 90px;
+    background-color: rgb(247, 211, 94);
+    border: none;
+    border-radius: 3px;
+    
+}
+
+.btnComprar:hover{
+    background-color: rgb(248, 219, 125);
+}
+
+
+
+.botones button{ 
+
+    height: 4vh;
+}
+.formulario input{
+   display: none;
+   
+   
+}
+.formulario{
+    position: absolute;
+    top: 570px;
+   
+}
+.datos{
+    position: relative;
+}
